@@ -1,0 +1,56 @@
+node_modules
+
+# 依赖目录
+node_modules/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 构建目录
+/frontend/build/
+/frontend/dist/
+/dist/
+
+# 日志文件
+*.log
+frontend/*.log
+backend/*.log
+
+# 个人信息和敏感数据
+.env
+backend/.env
+frontend/.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 数据库文件
+*.db
+*.db.bak
+*.sqlite3
+*.sqlite
+
+# 证书和密钥
+*.pem
+*.key
+*.cert
+
+# IDE和编辑器
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# 临时文件和缓存
+.cache/
+.temp/
+.tmp/
+backend/static/avatars/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
